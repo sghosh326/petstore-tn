@@ -1,0 +1,224 @@
+/*
+Copyright 2015 Resilient Networks Systems
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+*/  
+
+/*
+ The stylesheet for the application
+ 
+ @author Sandip Ghosh (sandip.ghosh@resilient-networks.com)
+*/
+
+       .insmal {
+            height: 22px;
+            padding: 5px 5px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+        }
+
+        .boo {
+            /*border: 1px dotted orangered;*/
+        }
+
+        .fg-sep {
+
+            /*border: 1px solid purple;*/
+            margin-bottom: 15px;
+
+        }
+
+
+        .extra-bottom {
+            margin-bottom: 20px;
+        }
+
+        .extra-top {
+            margin-top:20px;
+        }
+
+        .line-bottom {
+            margin-bottom:0px;
+            padding-bottom:0px;
+        }
+
+        .panel-footer {
+            padding: 3px 15px;
+            background-color: #d9edf7;
+
+        }
+
+
+        .dark-side {
+            background-color: #000 !important;
+            color : #fff !important;
+        }
+
+
+        /*  .btn-dark  */
+        .btn-dark {
+            background-color: #009ede;
+            border-color: #ffffff;
+            color:#ffffff !important;
+        }
+
+        .btn-dark:hover,
+        .btn-dark:focus,
+        .btn-dark:active,
+        .btn-dark.active {
+            background-color: #1e7de4;
+            border-color: #ffffff;
+            color: #000;
+        }
+
+        .btn-dark.disabled:hover,
+        .btn-dark.disabled:focus,
+        .btn-dark.disabled:active,
+        .btn-dark.disabled.active,
+        .btn-dark[disabled]:hover,
+        .btn-dark[disabled]:focus,
+        .btn-dark[disabled]:active,
+        .btn-dark[disabled].active,
+        fieldset[disabled] .btn-dark:hover,
+        fieldset[disabled] .btn-dark:focus,
+        fieldset[disabled] .btn-dark:active,
+        fieldset[disabled] .btn-dark.active {
+            background-color: #666;
+            border-color: #ccc;
+
+        }
+
+        .dark-button-disabled {
+            background-color: #666;
+            border-color: #ccc;
+
+        }
+
+
+
+
+
+
+
+        /* Sticky footer styles */
+        /* this didn't help, hell not even using stupid sticky footer at all so, good bye */
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        /* help for stupid footer thing, that's what next line is all about */
+        /* Margin bottom by footer height */
+
+        body {
+			margin-top: 40px;
+            margin-bottom: 45px;
+            /* this is for the dumb login form */
+            /* which we will try not to use */
+            /*
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #eee;
+            */
+        }
+
+        .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        .form-signin .form-signin-heading,
+        .form-signin .checkbox {
+            margin-bottom: 10px;
+        }
+        .form-signin .checkbox {
+            font-weight: normal;
+        }
+        .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+          .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 45px;
+            background-color: #f5f5f5;
+        }
+
+        /* when only two values: top/bottom (1st)  right/left (2nd)     */
+        .container .text-muted {
+            margin: 15px 0;
+        }
+
+        .footer > .container {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .panel-heading small {
+        	margin-top: 20px;
+        }
+ 
+ 		.panel-heading small h3 {
+ 			margin-top: 10px;
+ 		}
+
+		.cartSubtotal {
+			color: #b12704;
+		}
+		
+		.alert-box {
+		    color:#555;
+		    border-radius:3px;
+		    padding:10px 10px 10px 36px;
+		    margin:10px;
+		}		
+		
+		.error {
+		    background-color:#ffecec;
+		    border:1px solid #f5aca6;
+		}
+		.success {
+		    background-color:#e9ffd9;
+		    border:1px solid #a6ca8a;
+		}
+		.warning {
+		    background-color:#fff8c4;
+		    border:1px solid #f2c779;
+		}
+		.notice {
+		    background-color:#e3f7fc;
+		    border:1px solid #8ed9f6;
+		}		
